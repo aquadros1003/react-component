@@ -1,0 +1,20 @@
+React to popularny i często używany framework JavaScript do tworzenia interfejsów 
+użytkownika. Charakteryzuje się tym, że opiera się na komponentach, co oznacza, że 
+interfejs jest budowany z wielu małych, hermetycznych elementów, zamiast jednego dużego 
+bloku kodu. Jednym z kluczowych elementów React jest wirtualny DOM (Virtual Document 
+Object Model), który jest zbudowany na podstawie rzeczywistego DOM.
+
+Wirtualny DOM to struktura danych, która jest reprezentacją DOM utworzoną w pamięci. 
+React używa wirtualnego DOM, aby zminimalizować liczbę operacji na rzeczywistym DOM, 
+które są kosztowne pod względem wydajnościowym. Zamiast bezpośrednio aktualizować 
+rzeczywisty DOM w reakcji na każdą zmianę stanu, React porównuje wirtualny DOM z 
+rzeczywistym DOM i tylko aktualizuje te elementy, które się zmieniły.
+
+React rozwiązuje wiele problemów związanych z tworzeniem interfejsów użytkownika, 
+takich jak efektywne renderowanie i aktualizowanie elementów strony w czasie 
+rzeczywistym, reakcje na interakcje użytkownika oraz zarządzanie stanem aplikacji.
+
+Framework ten jest szczególnie przydatny w projektach, w których ważna jest szybkość 
+działania aplikacji oraz elastyczność i skalowalność interfejsu użytkownika. Może być 
+stosowany w różnych typach projektów, od małych stron internetowych po duże aplikacje 
+internetowe i mobilne.
