@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import PatientProfile from './components/PatientProfile';
+
+const patient = {
+  name: 'Jan Kowalski',
+  age: 35,
+  gender: 'Mężczyzna',
+  address: 'ul. Testowa 1, 00-000 Warszawa',
+  phone: '+48 123 456 789',
+  pesel: '12345678901',
+  photo: 'https://cdn1.iconfinder.com/data/icons/doctor-5/100/01-1Patient_1-512.png',
+  email: 'Pawkowal@yuhuu.com',
+  diseases: "Cukrzyca, nadciśnienie, astma",
+  allergies: "Pyłki, kurz, sierść zwierząt",
+};
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PatientProfile {...patient} />
     </div>
   );
 }
